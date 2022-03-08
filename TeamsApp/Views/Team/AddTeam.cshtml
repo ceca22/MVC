@@ -1,0 +1,37 @@
+﻿@model TeamViewModel
+@{ ViewBag.Title = "Add a Team"; }
+<br/>
+
+@using (Html.BeginForm())
+{
+<div class="column" align="center">
+    <div class="col-md-6">
+        <span class="input-group-addon">@Html.LabelFor(x => x.Name)</span>
+        @Html.TextBox("model.Name", null, new { @class = "form-control", style = "width:250px;" })
+    </div>
+    <div class="col-md-6">
+        <span class="input-group-addon">@Html.LabelFor(x => x.City)</span>
+        @Html.TextBox("model.City", null, new { @class = "form-control", style = "width:250px;" })
+    </div>
+    <div class="col-md-6">
+        <span class="input-group-addon">@Html.LabelFor(x => x.Stadium)</span>
+        @Html.TextBox("model.Stadium", null, new { @class = "form-control", style = "width:250px;" } )
+    </div>
+    <div class="col-md-6">
+        <span class="input-group-addon">@Html.LabelFor(x => x.YearOfEstablishment)</span>
+        @Html.TextBox("model.YearOfEstablishment", null, new { @class = "form-control", style = "width:250px;" })
+    </div>
+    <div class="col-md-6">
+        <span class="input-group-addon">@Html.LabelFor(x => x.History)</span>
+        @Html.TextArea("model.History", null, new { @class = "form-control", style = "width:250px;" })
+
+    </div>
+
+</div>
+    <br />
+    <div align="center">
+        <button class="btn btn-danger" type="submit">Create</button>
+    </div>
+    
+}
+

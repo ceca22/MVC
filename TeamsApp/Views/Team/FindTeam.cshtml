@@ -1,0 +1,25 @@
+﻿@model PlayersViewModel
+    <div class="row">
+        <div class="col-md-8">
+            @{
+                Html.RenderPartial("_TeamItem");
+            }
+            <br />
+            @{
+                Html.RenderPartial("_PlayersItem");
+            }
+        </div>
+        <div class="col-md-4" align="center">
+            <br />
+            <h4>Add a player Form</h4>
+            <br />
+
+            @{
+                Html.RenderPartial("_PlayerItem");
+            }
+        </div>
+    </div>
+
+
+
+

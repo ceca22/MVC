@@ -1,0 +1,33 @@
+﻿
+
+@using (Html.BeginForm())
+{
+    <div class="column" align="center">
+        <div>
+            <span class="input-group-addon">First Name</span>
+            @Html.TextBox("model.PlayerViewModel.Name", null, new { @class = "form-control", style = "width:200px;" })
+        </div>
+        <div>
+            <span class="input-group-addon">Last Name</span>
+            @Html.TextBox("model.PlayerViewModel.LastName", null, new { @class = "form-control", style = "width:200px;" })
+        </div>
+        <div>
+            <span class="input-group-addon">DateOfBirth</span>
+            @Html.TextBox("model.PlayerViewModel.DateOfBirth", null, new { @class = "form-control", style = "width:200px;" })
+            <script src="@Url.Content("~/Scripts/jquery.ui.datepicker.min.js")"
+                    type="text/javascript"></script>
+
+        </div>
+        <div>
+            <span class="input-group-addon">Value</span>
+            @Html.TextBox("model.PlayerViewModel.Value", null, new { @class = "form-control", style = "width:200px;" })
+        </div>
+
+    </div>
+    <br />
+    <div align="center">
+        <button class="btn btn-danger" type="submit">Create</button>
+    </div>
+
+
+}

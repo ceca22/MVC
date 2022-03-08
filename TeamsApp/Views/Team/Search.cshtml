@@ -1,0 +1,13 @@
+﻿@model FindTeamByNameViewModel
+<h3>Search</h3>
+<br />
+@using (Html.BeginForm())
+{
+    <span class="input-group-addon"></span>
+    @Html.TextBox("model.Name", null, new { @class = "form-control", style = "width:200px;" })
+    <br />
+    <button class="btn btn-info" type="submit">
+        Find
+    </button>
+}
+
