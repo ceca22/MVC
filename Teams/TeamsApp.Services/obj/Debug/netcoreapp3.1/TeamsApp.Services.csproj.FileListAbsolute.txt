@@ -12,3 +12,17 @@ C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Services\o
 C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Services\obj\Debug\netcoreapp3.1\TeamsApp.Services.csproj.CopyComplete
 C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Services\obj\Debug\netcoreapp3.1\TeamsApp.Services.dll
 C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Services\obj\Debug\netcoreapp3.1\TeamsApp.Services.pdb
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\bin\Debug\netcoreapp3.1\TeamsApp.Services.deps.json
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\bin\Debug\netcoreapp3.1\TeamsApp.Services.dll
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\bin\Debug\netcoreapp3.1\TeamsApp.Services.pdb
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\bin\Debug\netcoreapp3.1\TeamsApp.DataAccess.dll
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\bin\Debug\netcoreapp3.1\TeamsApp.Domain.dll
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\bin\Debug\netcoreapp3.1\TeamsApp.DataAccess.pdb
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\bin\Debug\netcoreapp3.1\TeamsApp.Domain.pdb
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\obj\Debug\netcoreapp3.1\TeamsApp.Services.csproj.AssemblyReference.cache
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\obj\Debug\netcoreapp3.1\TeamsApp.Services.AssemblyInfoInputs.cache
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\obj\Debug\netcoreapp3.1\TeamsApp.Services.AssemblyInfo.cs
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\obj\Debug\netcoreapp3.1\TeamsApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\obj\Debug\netcoreapp3.1\TeamsApp.Services.csproj.CopyComplete
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\obj\Debug\netcoreapp3.1\TeamsApp.Services.dll
+C:\Users\Stefan\Desktop\kurs\CV\MVC\Teams\TeamsApp.Services\obj\Debug\netcoreapp3.1\TeamsApp.Services.pdb

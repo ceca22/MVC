@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp\\TeamsApp.csproj": {}
+    "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp\\TeamsApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj": {
+    "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj",
         "projectName": "TeamsApp.DataAccess",
-        "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj"
+              "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj": {
+    "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj",
         "projectName": "TeamsApp.Domain",
-        "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj",
+        "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -172,14 +172,14 @@
         }
       }
     },
-    "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj": {
+    "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj",
         "projectName": "TeamsApp.Services",
-        "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj",
+        "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj",
         "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Services\\obj\\",
+        "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -202,11 +202,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj"
+              "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj"
               },
-              "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj"
+              "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj"
               }
             }
           }
@@ -239,14 +239,14 @@
         }
       }
     },
-    "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp\\TeamsApp.csproj": {
+    "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp\\TeamsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp\\TeamsApp.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp\\TeamsApp.csproj",
         "projectName": "TeamsApp",
-        "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp\\TeamsApp.csproj",
+        "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp\\TeamsApp.csproj",
         "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp\\obj\\",
+        "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -269,8 +269,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj": {
-                "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj"
+              "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj": {
+                "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj"
               }
             }
           }

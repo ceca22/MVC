@@ -5004,11 +5004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj",
       "projectName": "TeamsApp.Domain",
-      "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj",
+      "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj",
       "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

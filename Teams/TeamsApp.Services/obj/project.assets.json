@@ -4972,11 +4972,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj",
+      "projectUniqueName": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj",
       "projectName": "TeamsApp.Services",
-      "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj",
+      "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj",
       "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Services\\obj\\",
+      "outputPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4999,11 +4999,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj"
+            "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.DataAccess\\TeamsApp.DataAccess.csproj"
             },
-            "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj": {
-              "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj"
+            "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Domain\\TeamsApp.Domain.csproj"
             }
           }
         }

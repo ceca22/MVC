@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CuMvfwrgF9a3gqleAFpVQqIQehMAqZxFzWw6hHVI+o2/4VGBbsDRir0iRDqgaIdATKvhkezDJGWV/jfbU/T17g==",
+  "dgSpecHash": "M7u0YG6nbHkmqB7dlQNJtyWJHUwZ2LGLgcTsmeYw8n9lEx6ZsrkcXKlQsrsRHatKpu6aQy1DyD50OEKVYJBbeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj",
+  "projectFilePath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp.Services\\TeamsApp.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Stefan\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

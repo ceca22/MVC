@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zHSOsgVIPEoujc+XLwpp9wVJRrfb05PuEHHt7iEUszBmVb2GW70OPWF1OoWeJSmmFMSxyUVfbCjpwQRsRTgyyA==",
+  "dgSpecHash": "GHESVrBBakV9rx9mzOahnJng6CnieBqJjJ8nMFoofXQq047hPmhZ1BeAnu/IEp9WdeU0EuSeVqQ+K6PEwdE8dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan\\Desktop\\kurs\\job assignment\\Innovation\\Teams\\TeamsApp\\TeamsApp.csproj",
+  "projectFilePath": "C:\\Users\\Stefan\\Desktop\\kurs\\CV\\MVC\\Teams\\TeamsApp\\TeamsApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.22\\microsoft.aspnetcore.mvc.razor.extensions.3.1.22.nupkg.sha512",
     "C:\\Users\\Stefan\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.22\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.22.nupkg.sha512",
