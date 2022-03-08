@@ -20,17 +20,7 @@ namespace TeamsApp.Controllers
             _playerService = playerService;
         }
 
-        // GET: PlayerController
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-        // GET: PlayerController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+       
 
         // GET: TeamController/Delete/5
         [HttpGet]
@@ -57,6 +47,31 @@ namespace TeamsApp.Controllers
             return View("FindTeam", playersViewModel);
         }
 
+        [HttpGet]
+        public ActionResult Index()
+        {
+
+            PlayerViewModel player = new PlayerViewModel();
+            return View("FindTeam", player);
+        }
+
+
+
+        [HttpPost]
+        public IActionResult Index(PlayerViewModel model)
+        {
+            return RedirectToAction("FindTeam", new { Id = model.Id, FirstName = model.FirstName, LastName = model.LastName, DateOfBirth = model.DateOfBirth, Value = model.Value });
+        }
+
+
+        public ActionResult AddPlayer(int id, string firstName, string lastName, DateTime dateOfBirth, int value)
+        {
+            Player player = new Player() { Id = id, FirstName = firstName, LastName = lastName, DateOfBirth = dateOfBirth, Value = value };
+            _playerService.Add(player);
+
+            PlayerViewModel playerViewModel = new PlayerViewModel() { Id = id, FirstName = firstName, LastName = lastName, DateOfBirth = dateOfBirth, Value = value };
+            return View(playerViewModel);
+        }
 
     }
 }
