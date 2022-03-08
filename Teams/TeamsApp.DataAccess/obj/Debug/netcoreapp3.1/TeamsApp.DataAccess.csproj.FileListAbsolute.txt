@@ -1,0 +1,15 @@
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\bin\Debug\netcoreapp3.1\TeamsApp.DataAccess.deps.json
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\bin\Debug\netcoreapp3.1\TeamsApp.DataAccess.runtimeconfig.json
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\bin\Debug\netcoreapp3.1\TeamsApp.DataAccess.runtimeconfig.dev.json
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\bin\Debug\netcoreapp3.1\TeamsApp.DataAccess.dll
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\bin\Debug\netcoreapp3.1\TeamsApp.DataAccess.pdb
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\bin\Debug\netcoreapp3.1\TeamsApp.Domain.dll
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\bin\Debug\netcoreapp3.1\TeamsApp.Domain.pdb
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\obj\Debug\netcoreapp3.1\TeamsApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\obj\Debug\netcoreapp3.1\TeamsApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\obj\Debug\netcoreapp3.1\TeamsApp.DataAccess.AssemblyInfo.cs
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\obj\Debug\netcoreapp3.1\TeamsApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\obj\Debug\netcoreapp3.1\TeamsApp.DataAccess.csproj.CopyComplete
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\obj\Debug\netcoreapp3.1\TeamsApp.DataAccess.dll
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\obj\Debug\netcoreapp3.1\TeamsApp.DataAccess.pdb
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.DataAccess\obj\Debug\netcoreapp3.1\TeamsApp.DataAccess.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\bin\Debug\netcoreapp3.1\TeamsApp.Domain.deps.json
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\bin\Debug\netcoreapp3.1\TeamsApp.Domain.runtimeconfig.json
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\bin\Debug\netcoreapp3.1\TeamsApp.Domain.runtimeconfig.dev.json
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\bin\Debug\netcoreapp3.1\TeamsApp.Domain.dll
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\bin\Debug\netcoreapp3.1\TeamsApp.Domain.pdb
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\obj\Debug\netcoreapp3.1\TeamsApp.Domain.csproj.AssemblyReference.cache
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\obj\Debug\netcoreapp3.1\TeamsApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\obj\Debug\netcoreapp3.1\TeamsApp.Domain.AssemblyInfo.cs
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\obj\Debug\netcoreapp3.1\TeamsApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\obj\Debug\netcoreapp3.1\TeamsApp.Domain.dll
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\obj\Debug\netcoreapp3.1\TeamsApp.Domain.pdb
+C:\Users\Stefan\Desktop\kurs\job assignment\Innovation\Teams\TeamsApp.Domain\obj\Debug\netcoreapp3.1\TeamsApp.Domain.genruntimeconfig.cache
