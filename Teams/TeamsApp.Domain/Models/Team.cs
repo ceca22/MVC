@@ -12,5 +12,7 @@ namespace TeamsApp.Domain.Models
         public string Stadium { get; set; }
         public int YearOfEstablishment { get; set; }
         public string History { get; set; }
+
+        public List<Player> Players = new List<Player>();
     }
 }

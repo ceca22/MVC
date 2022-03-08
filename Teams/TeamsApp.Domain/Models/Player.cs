@@ -11,5 +11,8 @@ namespace TeamsApp.Domain.Models
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
         public int Value { get; set; }
+        public int TeamId { get; set; }
+
+        public Team Team { get; set; }
     }
 }

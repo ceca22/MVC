@@ -78,7 +78,7 @@ namespace TeamsApp.Controllers
         public ActionResult<Team> GetTeamByName(string name)
         {
             Team team = _teamService.GetTeamByName(name);
-
+            
             var teamViewModel = new TeamViewModel()
             {
                 Id = team.Id,
@@ -89,7 +89,9 @@ namespace TeamsApp.Controllers
                 History = team.History
             };
 
-            List<Player> players = _playerService.GetAll();
+            List<Player> players = _playerService.GetAll()
+                .Where(x=>x.TeamId == team.Id)
+                .ToList();
             
             
             List<PlayerViewModel> playersViewM = new List<PlayerViewModel>();

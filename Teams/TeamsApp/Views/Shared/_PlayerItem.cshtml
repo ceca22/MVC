@@ -5,27 +5,37 @@
     <div class="column" align="center">
         <div>
             <span class="input-group-addon">First Name</span>
-            @Html.TextBox("model.PlayerViewModel.Name", null, new { @class = "form-control", style = "width:200px;" })
+            @*@Html.TextBox("model.PlayerViewModel.Name", null, new { @class = "form-control", style = "width:200px;" })*@
+            <br/>
+            <input type="text" name="firstName" style="width: 200px; height: 33.5px; "/>
         </div>
         <div>
             <span class="input-group-addon">Last Name</span>
-            @Html.TextBox("model.PlayerViewModel.LastName", null, new { @class = "form-control", style = "width:200px;" })
+            @*@Html.TextBox("model.PlayerViewModel.LastName", null, new { @class = "form-control", style = "width:200px;" })*@
+            <br />
+
+            <input type="text" name="lastName" style="width: 200px; height: 33.5px; "/>
+
         </div>
         <div>
             <span class="input-group-addon">DateOfBirth</span>
             <br/>
-            <input type="date" "model.PlayerViewModel.DateOfBirth" style="width: 200px; height: 33.5px;  border: 1px solid #ced4da;" />
+            <input type="date"  name="date" style="width: 200px; height: 33.5px;  border: 1px solid black;" />
 
         </div>
         <div>
             <span class="input-group-addon">Value</span>
-            @Html.TextBox("model.PlayerViewModel.Value", null, new { @class = "form-control", style = "width:200px;" })
-        </div>
+            <br />
 
+            <input type="text" name="value"  style="width: 200px; height: 33.5px; " />
+
+        </div>
+        
     </div>
     <br />
     <div align="center">
-        <button class="btn btn-danger" type="submit">Create</button>
+        <button class="btn btn-danger" type="submit" asp-controller="Player" asp-action="AddPlayer"
+                  asp-route-teamId="@Model.Team.Id"        >Create</button>
     </div>
 
 

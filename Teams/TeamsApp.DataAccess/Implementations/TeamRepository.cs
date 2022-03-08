@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,13 +31,15 @@ namespace TeamsApp.DataAccess.Implementations
 
         public List<Team> GetAll()
         {
-            return _db.Teams.ToList();
+            return _db.Teams
+                .ToList();
 
         }
 
         public Team GetById(int id)
         {
-            return _db.Teams.FirstOrDefault(x => x.Id == id);
+            return _db.Teams
+                .FirstOrDefault(x => x.Id == id);
 
         }
 
@@ -70,7 +73,8 @@ namespace TeamsApp.DataAccess.Implementations
 
         public Team GetTeamByName(string name)
         {
-            return _db.Teams.FirstOrDefault(x => x.Name == name);
+            return _db.Teams
+                .FirstOrDefault(x => x.Name == name);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,13 +31,15 @@ namespace TeamsApp.DataAccess.Implementations
 
         public List<Player> GetAll()
         {
-            return _db.Players.ToList();
+            return _db.Players
+                .Include(x=>x.Team)
+                .ToList();
 
         }
 
         public Player GetById(int id)
         {
-            return _db.Players.FirstOrDefault(x => x.Id == id);
+            return _db.Players.Include(x=>x.Team).FirstOrDefault(x => x.Id == id);
         }
 
         public Player Insert(Player entity)
@@ -56,7 +59,6 @@ namespace TeamsApp.DataAccess.Implementations
                 player.LastName = entity.LastName;
                 player.DateOfBirth = entity.DateOfBirth;
                 player.Value = entity.Value;
-
 
                 _db.Players.Update(player);
             }

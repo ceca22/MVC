@@ -10,8 +10,8 @@ using TeamsApp.DataAccess;
 namespace TeamsApp.DataAccess.Migrations
 {
     [DbContext(typeof(TeamsAppDbContext))]
-    [Migration("20220307212926_first")]
-    partial class first
+    [Migration("20220308040249_two")]
+    partial class two
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -37,10 +37,15 @@ namespace TeamsApp.DataAccess.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("TeamId")
+                        .HasColumnType("int");
+
                     b.Property<int>("Value")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("TeamId");
 
                     b.ToTable("Players");
                 });
@@ -70,6 +75,15 @@ namespace TeamsApp.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Teams");
+                });
+
+            modelBuilder.Entity("TeamsApp.Domain.Models.Player", b =>
+                {
+                    b.HasOne("TeamsApp.Domain.Models.Team", "Team")
+                        .WithMany()
+                        .HasForeignKey("TeamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

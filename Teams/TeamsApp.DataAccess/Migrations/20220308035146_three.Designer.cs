@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TeamsApp.DataAccess;
 
 namespace TeamsApp.DataAccess.Migrations
 {
     [DbContext(typeof(TeamsAppDbContext))]
-    partial class TeamsAppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220308035146_three")]
+    partial class three
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,7 +37,7 @@ namespace TeamsApp.DataAccess.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TeamId")
+                    b.Property<int?>("TeamId")
                         .HasColumnType("int");
 
                     b.Property<int>("Value")
@@ -79,9 +81,7 @@ namespace TeamsApp.DataAccess.Migrations
                 {
                     b.HasOne("TeamsApp.Domain.Models.Team", "Team")
                         .WithMany()
-                        .HasForeignKey("TeamId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TeamId");
                 });
 #pragma warning restore 612, 618
         }

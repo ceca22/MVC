@@ -6,18 +6,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using TeamsApp.Domain.Models;
 using TeamsApp.Models;
+using TeamsApp.Services.Services.Implementations;
 using TeamsApp.Services.Services.Interfaces;
 
 namespace TeamsApp.Controllers
 {
+    
     public class PlayerController : Controller
     {
         private readonly IService<Player> _playerService;
-        
+        private readonly ITeamService _teamService;
 
-        public PlayerController(IService<Player> playerService)
+
+
+        public PlayerController(IService<Player> playerService, ITeamService teamService)
         {
             _playerService = playerService;
+            _teamService = teamService;
         }
 
        
@@ -58,19 +63,36 @@ namespace TeamsApp.Controllers
 
 
         [HttpPost]
-        public IActionResult Index(PlayerViewModel model)
+        public IActionResult Index(int teamId)
         {
-            return RedirectToAction("FindTeam", new { Id = model.Id, FirstName = model.FirstName, LastName = model.LastName, DateOfBirth = model.DateOfBirth, Value = model.Value });
+            var firstName = Request.Form["fistName"];
+            var lastName = Request.Form["lastName"];
+            var date = Request.Form["date"];
+            var value = Request.Form["value"];
+
+            PlayerViewModel model = new PlayerViewModel() { FirstName = firstName, LastName = lastName, DateOfBirth = Convert.ToDateTime(date), Value = Int32.Parse(value), TeamId = teamId };
+
+            return RedirectToAction("FindTeam", model);
         }
 
-
-        public ActionResult AddPlayer(int id, string firstName, string lastName, DateTime dateOfBirth, int value)
+        [HttpPost]
+        public ActionResult AddPlayer(PlayerViewModel model)
         {
-            Player player = new Player() { Id = id, FirstName = firstName, LastName = lastName, DateOfBirth = dateOfBirth, Value = value };
+            Team team = _teamService.GetById(model.TeamId);
+            Player player = new Player() { Id = model.Id, FirstName = model.FirstName, LastName = model.LastName, DateOfBirth = model.DateOfBirth, Value = model.Value, Team = team};
             _playerService.Add(player);
+            TeamViewModel teamViewModel = new TeamViewModel()
+            {
+                Id = team.Id,
+                Name = team.Name,
+                City = team.City,
+                Stadium = team.Stadium,
+                History = team.History,
+                YearOfEstablishment = team.YearOfEstablishment
+            };
 
-            PlayerViewModel playerViewModel = new PlayerViewModel() { Id = id, FirstName = firstName, LastName = lastName, DateOfBirth = dateOfBirth, Value = value };
-            return View(playerViewModel);
+            
+            return View( model);
         }
 
     }
